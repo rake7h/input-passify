@@ -1,0 +1,77 @@
+.passify-field {
+  display: block;
+  width: 100%;
+  padding: .575rem 1rem;
+  font-size: .875rem;
+  line-height: 1.5;
+  color: #383842;
+  background-color: #fff;
+  background-clip: padding-box;
+  padding-right: 39px;
+  border: 0;
+  border-radius: .25rem;
+  box-shadow: inset 0 0 0 2px #b5b5c0;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.passify-input-block {
+  position: absolute;
+}
+.passify-field:focus {
+  color: #383842;
+  outline: none;
+  border: 0;
+  box-shadow: inset 0 0 0 2px #0063ff;
+}
+
+.passify-field-focused {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.passify-password-text {
+  background: url(eye-off.svg) no-repeat;
+  cursor: pointer;
+  height: 14px;
+  width: 16px;
+  position: absolute;
+  right: 2%;
+  bottom: 18%;
+}
+.passify-password-text-open {
+  background: url(eye.svg) no-repeat;
+}
+
+.passify-check-window {
+  border: 1px solid #ced4da;
+  border-top:0;
+  color: #626372;
+  margin-top: 0px;
+  padding: .8rem 1rem;
+  transition: all .25s ease-in-out 0s
+}
+
+.passify-check-list {
+  margin-block-end: 0;
+  list-style: none;
+  padding-inline-start: 1.2rem;
+}
+
+.passify-check-list li {
+  transition: all .25s ease-in-out 0s;
+  line-height: 28px;
+}
+
+.passify-check-list-item {
+  list-style: url(./uncheck.svg);
+}
+
+.checked {
+  list-style: url(./check.svg);
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
